@@ -1,0 +1,58 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    /* display: flex; */
+    height: 100vh;
+}
+.dashboardWrapper{
+    border-right: 2px solid rgb(100, 103, 103);
+    display: flex;
+    flex-direction: column;
+}
+.namingArea{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 7px;
+    border-bottom: 2px solid rgb(100, 103, 103);
+    margin: 0 3px;
+}
+.namingArea p{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.usersArea{
+    margin: 11px 3px;
+    /* display: flex;
+    flex-direction: column; */
+    /* height: 100vh; */
+    flex: 1;
+}
+.usersArea p{
+    font-size: 15px;
+    color: rgb(100, 103, 103);
+    font-weight: bolder;
+}
+.connectedUsers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.activity{
+    position: relative;
+    bottom: 0;
+}
+.copyButton{
+    margin: 0 10px;
+    border: 1px solid rgb(100, 103, 103);
+    border-radius: 7px;
+    padding: 3px 7px;
+    font-weight: 700
+}
+.leaveButton{
+    margin: 10px 10px;
+    border: 1px solid rgb(100, 103, 103);
+    border-radius: 7px;
+    padding: 3px 7px;
+    font-weight: 700
+}

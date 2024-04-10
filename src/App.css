@@ -1,0 +1,65 @@
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+.projectName{
+  font-size: 40px;
+  font-weight: 700;
+}
+.HomeWrapper{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(6,200,246);
+  background: linear-gradient(135deg, rgba(0,212,255,1) 0%, rgba(241,241,246,1) 50%, rgba(0,212,255,1) 100%);
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+nav p{
+  margin-bottom: 0px;
+}
+.sectionWrapper{
+  width: 400px;
+  max-width: 90%;
+  border: 2px solid skyblue;
+  padding: 5px;
+  border-radius: 10px;
+}
+.sectionWrapper p{
+  margin-bottom: 0px;
+}
+.registratonBox{
+  margin: 10px 0px;
+}
+.registratonBox input{
+ outline: none;
+ display: block;
+ border:2px solid skyblue;
+ width: 100%;
+ margin-bottom: 8px;
+ border-radius: 7px;
+ padding: 7px;
+ font-weight: 600;
+}
+.joinbtn{
+  width: 80px;
+  background: rgba(0,212,255,1);
+  padding: 5px 7px;
+  color: white;
+  border: white;
+  border-radius: 5px;
+  transition: 0.5s all ease-in-out;
+}
+.joinbtn:hover{
+  background: #009dff;
+}
+.sectionWrapper{
+  background: #fff;
+  font-size: 17px;
+}
+.generateId{
+  color: rgba(0,212,255,1);
+}
