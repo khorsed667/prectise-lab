@@ -7,5 +7,5 @@ export const initSocket = async () =>{
         timeout : 10000,
         transports : ['websocket']
     }
-    return io('http://localhost:3000/', options)
+    return io('https://prectise-lab-server-3.onrender.com/', options)
 }
